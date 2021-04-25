@@ -2,7 +2,7 @@ package stack;
 
 public class SClient {
     public static void main(String[] args) throws Exception {
-        Stack s = new Stack();
+        Stack s = new DynamicStack();
         s.push(10);
         s.push(20);
         s.push(30);
@@ -12,10 +12,13 @@ public class SClient {
         System.out.println(s.pop());
         System.out.println(s.pop());
         s.display();
-        s.pop();
-        s.pop();
-        s.pop();
+        s.push(60);
+        s.push(70);
+        s.push(80);
+        s.push(90);
+        s.push(100);
+        s.push(100);
+        s.push(100);
         s.display();
-        s.pop();
     }
 }

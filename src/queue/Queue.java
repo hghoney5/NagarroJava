@@ -1,9 +1,9 @@
 package queue;
 
 public class Queue {
-    private int front;
-    private int size;
-    private int[] data;
+    protected int front;
+    protected int size;
+    protected int[] data;
 
     public Queue(){
         front = 0;

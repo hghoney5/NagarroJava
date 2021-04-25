@@ -1,9 +1,8 @@
 package stack;
 
 public class Stack {
-    private int tos;
-    private int size;
-    private int[] data;
+    protected int tos;
+    protected int[] data;
 
     public Stack() {
         tos=-1;
